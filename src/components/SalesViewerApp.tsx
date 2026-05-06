@@ -301,7 +301,6 @@ export default function SalesViewerApp() {
             <StatCard label="Bar" value={eur(stats.bar)} />
             <StatCard label="Shops" value={num(stats.shops)} />
             <StatCard label="Fotos" value={num(stats.photos)} />
-            <StatCard label="Durchschnitt" value={eur(stats.avg)} />
           </div>
         </section>
 
